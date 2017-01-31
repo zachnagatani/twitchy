@@ -13,7 +13,7 @@ twitchy.service('streams', ['$http', function($http) {
 // Main Controller
 twitchy.controller('mainCtrl', ['streams', function(streams) {
 	const self = this,
-		  streamers = ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas", "mightymouseufc125"];
+		  streamers = ['ESL_SC2', 'OgamingSC2', 'cretetion', 'freecodecamp', 'storbeck', 'habathcx', 'RobotCaleb', 'noobs2ninjas', 'mightymouseufc125'];
 	self.allStreams = [];
 
 	self.filterStreams = function() {
